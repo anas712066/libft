@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mumajeed <mumajeed@student.42barcelona.    +#+  +:+       +#+        */
+/*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/27 12:30:39 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/09/29 20:03:54 by mumajeed         ###   ########.fr       */
+/*   Created: 2024/10/05 18:36:57 by mumajeed          #+#    #+#             */
+/*   Updated: 2024/10/05 18:36:57 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
