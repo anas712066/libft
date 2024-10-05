@@ -2,7 +2,7 @@
 NAME = libft.a
 
 # Compilador y flags
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 # Lista de archivos .c (agrega todos los ft_*.c que necesites)
