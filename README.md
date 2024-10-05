@@ -17,7 +17,7 @@ Primera Parte:
 | 13     | [toupper](ft_toupper.c)  | ✅       | ✅       | ✅       |
 | 14     | [tolower](ft_tolower.c) | ✅       |✅       | ✅      |
 | 15     | [strchr](ft_strchr.c)  | ✅       |✅       | ✅       |
-| 16     | [strrchr](ft_strrchr.c)  | 🚧       |🚧       | 🚧       |
+| 16     | [strrchr](ft_strrchr.c)  | ✅       |✅       | ✅       |
 | 17     | [strncmp](ft_strncmp.c)  | ✅       |✅       |✅       |
 | 18     | [memchr](ft_memchr.c)   | ✅       |✅       | ✅       |
 | 19     | [memcmp](ft_memcmp.c)   | ✅       |✅       | ✅       |
