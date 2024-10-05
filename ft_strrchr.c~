@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/05 21:15:37 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/05 21:54:58 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/05 21:55:26 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ char	*ft_strrchr(const char *s, int c)
 
 	result = ft_strrchr(str, c);
 	if (result != NULL)
-		printf("La última aparición del carácter '%c' está en: \"%s\"\n", c, result);
+		printf("La última carácter '%c' está en: \"%s\"\n", c, result);
 	else
 		printf("El carácter '%c' no se encontró en la cadena.\n", c);
 	return (0);
