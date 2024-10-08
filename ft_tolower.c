@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 10:05:36 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/08 10:05:36 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/08 11:14:06 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_tolower(int c)
 {
-	if (c >= 'A' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (c + 32);
 	}
