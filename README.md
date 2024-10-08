@@ -24,7 +24,7 @@ Primera Parte:
 | 20     | [strnstr](ft_strnstr.c)    | ✅       |✅      | ✅       |
 | 21     | [atoi](ft_atoi.c)   | ✅       |✅       | ✅       |
 | 22     | [calloc](ft_calloc.c)   | ✅       |✅       | ✅      |
-| 23     | [strdup](ft_strdup.c)   | 🚧       |🚧       |🚧       |
+| 23     | [strdup](ft_strdup.c)   | ✅       |✅       |✅      |
 
 Segunda Parte:
 

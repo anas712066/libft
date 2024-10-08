@@ -1,42 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/08 10:05:36 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/08 10:05:36 by mumajeed         ###   ########.fr       */
+/*   Created: 2024/10/08 10:07:50 by mumajeed          #+#    #+#             */
+/*   Updated: 2024/10/08 10:24:19 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_calloc(size_t nmemb, size_t size)
+char	*ft_strdup(const char *s)
 {
-	size_t	total_size;
-	void	*ptr;
+	size_t	len;
+	char	*dup;
 
-	total_size = nmemb * size;
-	ptr = malloc(total_size);
-	if (!ptr)
+	len = strlen(s);
+	dup = (char *)malloc((len + 1) * sizeof(char));
+	if (!dup)
 		return (NULL);
-	memset(ptr, 0, total_size);
-	return (ptr);
+	strcpy(dup, s);
+	return (dup);
 }
 /*int	main()
 {
-	int	*arr = (int *)ft_calloc(5, sizeof(int));
+	const char *original = "Hola, mundo!";
+	char *duplicado;
 
-	if (!arr)
+	duplicado = ft_strdup(original);
+	if (duplicado)
 	{
-		printf("Error al asignar memoria.\n");
-		return (1);
+		printf("Cadena Original: %s\n", original);
+		printf("Cadena duplciada: %s\n", duplicado);
+		free(duplicado);
 	}
-	for (int i = 0; i < 5; i++)
+	else
 	{
-		printf("arr[%d] = %d\n", i, arr[i]);
+		printf("No se pudo duplicar la cadena\n");
 	}
-	free(arr);
 	return (0);
 }*/
