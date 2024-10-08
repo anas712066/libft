@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 10:05:36 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/08 10:05:36 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/08 10:54:20 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,12 +27,12 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		return ((char *)p1);
 	while (p1[i] != '\0' && i < len)
 	{
-		if (p1[i] == ps[0])
+		if (p1[i] == p2[0])
 		{
 			while (p2[j] != '\0' && p1[i + j] == p2[j] && (i + j) < len)
 				j++;
 			if (p2[j] == '\0')
-				return (char *&p1[i]);
+				return ((char *)&p1[i]);
 		}
 		i++;
 	}
