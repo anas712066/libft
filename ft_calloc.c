@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 10:05:36 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/08 10:05:36 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/08 12:02:33 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ptr = malloc(total_size);
 	if (!ptr)
 		return (NULL);
-	memset(ptr, 0, total_size);
+	ft_memset(ptr, 0, total_size);
 	return (ptr);
 }
 /*int	main()
