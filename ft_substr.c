@@ -6,41 +6,65 @@
 /*   By: mumajeed <mumajeed@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 00:30:55 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/09 00:30:55 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/12 19:16:58 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_substr(char const *s, unsigned int start, size_t len)
+static size_t	ft_strlen(const char *s)
+{
+	size_t	len;
+
+	len = 0;
+	while (s[len])
+	len++;
+	return (len);
+}
+
+static char *ft_create_empty_str(void)
+{
+    char *empty_str = (char *)malloc(1);
+    if (!empty_str)
+        return NULL;
+    empty_str[0] = '\0';
+    return empty_str;
+}
+
+static size_t ft_adjust_len(size_t s_len, unsigned int start, size_t len)
+{
+    if (len > s_len - start)
+        return s_len - start;
+    return len;
+}
+
+static char *ft_substr(char const *s, unsigned int start, size_t len)
 {
     char *substr;
     size_t i;
     size_t s_len;
 
-    s_len = 0;
     if (!s)
         return (NULL);
 
-    while (s[s_len])
-        s_len++;
-    if (start >= s_len) {
-        substr = (char *)malloc(1);
-        if (!substr)
-            return (NULL);
-        substr[0] = '\0';
-        return (substr);
-    }
-    if (len > s_len - start)
-        len = s_len - start;
+    s_len = ft_strlen(s);
+
+    if (start >= s_len)
+        return ft_create_empty_str();
+
+    len = ft_adjust_len(s_len, start, len);
+
     substr = (char *)malloc((len + 1) * sizeof(char));
     if (!substr)
         return (NULL);
+
     i = 0;
-    while (i < len && s[start + i]) {
+    while (i < len && s[start + i])
+    {
         substr[i] = s[start + i];
         i++;
     }
     substr[i] = '\0';
+
     return (substr);
 }
