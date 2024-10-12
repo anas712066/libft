@@ -6,7 +6,7 @@
 /*   By: mumajeed <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 17:53:12 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/12 18:53:06 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/12 22:33:41 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ int		ft_atoi(const char *nptr);
 void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strdup(const char *s);
-
 //Segon Part
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 
