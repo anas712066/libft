@@ -6,21 +6,11 @@
 /*   By: mumajeed <mumajeed@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 00:30:55 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/12 22:20:48 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/12 22:50:01 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static size_t	ft_strlen(const char *s)
-{
-	size_t	len;
-
-	len = 0;
-	while (s[len])
-		len++;
-	return (len);
-}
 
 static char	*ft_create_empty_str(void)
 {
