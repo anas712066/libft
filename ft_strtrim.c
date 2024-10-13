@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 14:05:46 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/13 15:09:15 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/13 15:18:26 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,14 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trimmed_str = (char *)malloc(len + 1);
 	if (!trimmed_str)
 		return (NULL);
-	strncpy(trimmed_str, s1 + start, len);
-	trimmed_str[len] = '\0';
+	dest = trimmed_str;
+	while (start < end)
+	{
+		*dest = s1[start];
+		dest++;
+		start++;
+	}
+	*dest = '\0';
 	return (trimmed_str);
 }
 /*int	main(void)
