@@ -31,8 +31,8 @@ Segunda Parte:
 | Number | Function    | Done  | Testing  | Status  |
 |--------|-------------|---------|-------------|---------|
 | 24     | [ft_substr](ft_substr.c)   | ✅      |✅       | ✅       |
-| 25     | [ft_strjoin](ft_strjoin.c)  | ✅      | 🚧      | 🚧      |
-| 26     | [ft_strtrim](ft_strtrim.c) | 🚧      |🚧      | 🚧      |
+| 25     | [ft_strjoin](ft_strjoin.c)  | ✅      | ✅      | ✅      |
+| 26     | [ft_strtrim](ft_strtrim.c) | ✅      |🚧      | 🚧      |
 | 27     | [ft_split](ft_split.c)  | 🚧      |🚧      | 🚧      |
 | 28     | [ft_itoa](ft_itoa.c)  | 🚧      |🚧      | 🚧      |
 | 29     | [ft_strmapi](ft_strmapi.c)  | 🚧      |🚧      | 🚧      |
