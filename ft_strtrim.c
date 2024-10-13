@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/13 14:05:46 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/13 14:29:10 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/13 14:34:33 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trimmed_str[len] = '\0';
 	return (trimmed_str);
 }
-int	main(void)
+/*int	main(void)
 {
 	char *s1 = "   ***Hello, World!***   ";
 	char *set = " *";
@@ -64,4 +64,4 @@ int	main(void)
 		printf("Error en la función ft_strtrim\n");
 	}
 	return (0);
-}
+}*/
