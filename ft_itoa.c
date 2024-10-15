@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 09:12:43 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/15 09:40:47 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/15 10:52:51 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,3 +57,24 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
+/*int	main(void)
+{
+	int		numbers[] = {123, -456, 0, 2147483647, -2147483648};
+	char	*result;
+	int		i;
+
+	i = 0;
+	while (i < 5) // Probar los 5 números del array
+	{
+		result = ft_itoa(numbers[i]);
+		if (result)
+		{
+			printf("Número: %d, Como cadena: %s\n", numbers[i], result);
+			free(result);  // Liberar la memoria reservada
+		}
+		else
+			printf("Error: no se pudo convertir el número %d\n", numbers[i]);
+		i++;
+	}
+	return (0);
+}*/
