@@ -6,7 +6,7 @@
 /*   By: mumajeed <mumajeed@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 09:12:43 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/15 11:13:28 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/15 12:00:11 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static int	ft_numlen(int n)
 {
 	int	len;
 
-	len = 1;
+	len = 0;
 	if (n < 0)
 		len++;
 	while (n / 10 != 0)
@@ -44,10 +44,17 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 		num = -num;
 	}
-	while (len-- > 0 && str[len] != '-')
+	while (len-- > 0) //&& str[len] != '-')
 	{
 		str[len] = num % 10 + '0';
 		num /= 10;
 	}
 	return (str);
+}
+int	main(void)
+{
+	int	numeros = -123;
+	
+	printf("%s\n", ft_itoa(numeros));
+	return (0);
 }
