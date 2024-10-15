@@ -6,7 +6,7 @@
 /*   By: mumajeed <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/25 17:53:12 by mumajeed          #+#    #+#             */
-/*   Updated: 2024/10/15 11:02:34 by mumajeed         ###   ########.fr       */
+/*   Updated: 2024/10/16 01:03:03 by mumajeed         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,5 +50,6 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
 #endif
