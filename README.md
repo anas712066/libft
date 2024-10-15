@@ -34,7 +34,7 @@ Segunda Parte:
 | 25     | [ft_strjoin](ft_strjoin.c)  | ✅      | ✅      | ✅      |
 | 26     | [ft_strtrim](ft_strtrim.c) | ✅      |✅      | ✅      |
 | 27     | [ft_split](ft_split.c)  | ✅      |✅      | ✅      |
-| 28     | [ft_itoa](ft_itoa.c)  | 🚧      |🚧      | 🚧      |
+| 28     | [ft_itoa](ft_itoa.c)  | ✅      |✅      | ✅      |
 | 29     | [ft_strmapi](ft_strmapi.c)  | 🚧      |🚧      | 🚧      |
 | 30     | [ft_striteri](ft_striteri.c)   | 🚧      |🚧      | 🚧      |
 | 31     | [ft_putchar_fd](ft_putchar_fd.c)   | 🚧      |🚧      | 🚧      |
