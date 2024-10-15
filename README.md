@@ -35,9 +35,9 @@ Segunda Parte:
 | 26     | [ft_strtrim](ft_strtrim.c) | ✅      |✅      | ✅      |
 | 27     | [ft_split](ft_split.c)  | ✅      |✅      | ✅      |
 | 28     | [ft_itoa](ft_itoa.c)  | ✅      |✅      | ✅      |
-| 29     | [ft_strmapi](ft_strmapi.c)  | 🚧      |🚧      | 🚧      |
-| 30     | [ft_striteri](ft_striteri.c)   | 🚧      |🚧      | 🚧      |
-| 31     | [ft_putchar_fd](ft_putchar_fd.c)   | 🚧      |🚧      | 🚧      |
-| 32     | [ft_putstr_fd](ft_putstr_fd.c)    | 🚧      |🚧      | 🚧      |
-| 33     | [ft_putendl_fd](ft_putendl_fd.c)   | 🚧      |🚧      | 🚧      |
-| 34     | [ft_putnbr_fd](ft_putnbr_fd.c)   | 🚧      |🚧      | 🚧      |
+| 29     | [ft_strmapi](ft_strmapi.c)  | ✅      |✅      | ✅      |
+| 30     | [ft_striteri](ft_striteri.c)   | ✅      |✅      | ✅      |
+| 31     | [ft_putchar_fd](ft_putchar_fd.c)   | ✅      |✅      | ✅      |
+| 32     | [ft_putstr_fd](ft_putstr_fd.c)    | ✅      |✅      | ✅      |
+| 33     | [ft_putendl_fd](ft_putendl_fd.c)   | ✅      |✅      | ✅      |
+| 34     | [ft_putnbr_fd](ft_putnbr_fd.c)   | ✅      |✅      | ✅      |
