@@ -21,7 +21,7 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
 
-%.o: %.c Makefile
+%.o: %.c libft.h Makefile
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 #main:
